@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        li{
+          list-style: none;
+          background-color: antiquewhite;
+          border: 1px solid royalblue;  
+          padding: 0.1em;
+        }
+        .desconstruced-pancake{
+            display:flex;
+            flex-wrap: wrap;
+        }
+        .desconstruced-pancake>*{
+        flex: 1 1 100px;
+        }
+        .sidebar-says{
+            display: grid;
+            grid-template-columns: minmax(100px,20%)1fr;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <article class="sidebar-says">
+            <h1 class="super-centered">Ex01-Super Centered</h1>
+            <ul class="desconstruced-pancake">
+                <li>primeiro</li>
+                <li>segundo</li>
+                <li>terceiro</li>
+                <li>quarto</li>
+
+            </ul>
+            <section>
+                <h1>Texto</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab dolor veritatis non necessitatibus voluptas, eius vero minus, fugiat aperiam odit inventore? Impedit voluptas similique sed facilis maiores quam quia recusandae.</p>
+                <p>Sequi error, tempore aliquid perspiciatis debitis molestias ex vero aut dolorem cum tenetur architecto deserunt repellat ratione? Id autem veritatis impedit quia. Enim tempore dolorum, ex laborum expedita ea at!</p>
+                <p>Odit velit alias sunt modi eligendi laboriosam, laudantium et nostrum culpa. Eius animi, repudiandae nostrum architecto assumenda earum aliquam laborum excepturi nobis iure doloremque iusto optio asperiores perferendis ipsum sit?</p>
+            </section>
+        </article>
+    </main>
+</body>
+</html>l
